@@ -46,11 +46,12 @@ DB_CONNECTION=sqlite
 # DB_DATABASE=laravel
 # DB_USERNAME=root
 # DB_PASSWORD=
-
+```
 7. Создать файл базы данных
 
+```
 touch database/database.sqlite
-
+```
 
 8. Настройте подключение к базе данных в `.env`, затем выполните миграции:
 
