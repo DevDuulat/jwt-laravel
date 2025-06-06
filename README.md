@@ -35,7 +35,24 @@ php artisan jwt:secret
 JWT_TTL=30
 ```
 
-6. Настройте подключение к базе данных в `.env`, затем выполните миграции:
+6. Настройка базы данных через SQLite:
+
+В `.env`:
+
+```env
+DB_CONNECTION=sqlite
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=laravel
+# DB_USERNAME=root
+# DB_PASSWORD=
+
+7. Создать файл базы данных
+
+touch database/database.sqlite
+
+
+8. Настройте подключение к базе данных в `.env`, затем выполните миграции:
 
 ```bash
 php artisan migrate:fresh
