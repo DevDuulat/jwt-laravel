@@ -7,7 +7,7 @@
 
 ```bash
 git clone https://github.com/DevDuulat/jwt-laravel.git
-cd laravel-jwt-auth
+cd jwt-laravel
 ````
 
 2. Установите зависимости:
