@@ -56,7 +56,7 @@ touch database/database.sqlite
 8. Настройте подключение к базе данных в `.env`, затем выполните миграции:
 
 ```bash
-php artisan migrate:fresh
+php artisan migrate:fresh --seed
 ```
 
 ---
